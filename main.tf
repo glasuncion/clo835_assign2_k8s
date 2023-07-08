@@ -18,7 +18,7 @@ resource "aws_instance" "web_instance" {
   ami                  = "ami-0c94855ba95c71c99"
   instance_type        = "t2.micro"
   iam_instance_profile = "LabInstanceProfile"
-  key_name             = "clo835_assign1"
+  key_name             = "clo835_assign2"
 
 
   user_data = <<-EOF
